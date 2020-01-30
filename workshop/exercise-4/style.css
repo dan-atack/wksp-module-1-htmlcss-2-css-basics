@@ -1,27 +1,41 @@
-#centered {
-    text-align: center;
+h1 {
+    text-orientation: center;
+    margin: 60px;
+    font-size: 5em;
 }
 
-.title {
+.shit {
+    color: blue;
+}
+
+#title {
     font-size: 3rem;
 }
 
-subtitle {
+#subtitle {
     font-size: 1.5rem;
 }
 
-.div {
+p, div {
     background-color: gray;
 }
 
-#li {
+h2 {
+    border-color: gray;
+    margin-top: 0px;
+    font-size: 1.2em;
+}
+
+li {
     list-style-type: none;
 }
 
-content {
+#content {
     text-decoration: underline;
+    font-size: 1.2em;
 }
 
-monospaced {
+.image {
     font-family: monospace;
+    max-height: 600px;
 }
